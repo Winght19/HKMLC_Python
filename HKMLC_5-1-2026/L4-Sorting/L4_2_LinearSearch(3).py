@@ -5,5 +5,9 @@ print("Marks:", marks)
 # linear search 3.0
 target = int(input())
 index = -1
-# 使用 for 迴圈逐一檢查 marks 內的每個分數
-# 如果找到目標分數，將 index 設為該分數的索引值並列印出來
+for i in range(0, len(mark)):
+    if target == mark[i]:
+        index = i
+        print(i)
+if index == -1:
+    print("No result is found.")

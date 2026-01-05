@@ -5,9 +5,9 @@ print("Marks:", marks)
 # bubble sort
 for i in range(0, len(marks)-1):
     for j in range(0, len(marks)-1-i):
-        # 比較相鄰兩個元素
-        if ____________________________:
-            # 交換位置
-            
+        if marks[j] > marks[j+1]:
+            temp = marks[j]
+            marks[j] = marks[j+1]
+            marks[j+1] = temp
     
 print("Marks:", marks)

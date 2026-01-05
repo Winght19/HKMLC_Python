@@ -2,11 +2,10 @@
 marks = [77, 80, 95, 79, 100, 34, 62, 81]
 print("Marks:", marks)
 
-# linear search 2.0
+# linear search 1.0
 target = int(input())
 found = False
-i = 0
-# 使用 while 迴圈逐一檢查 marks 內的每個分數
-
-
+for i in range(0, len(mark)):
+    if target == mark[i]:
+        found = True
 print(found)
