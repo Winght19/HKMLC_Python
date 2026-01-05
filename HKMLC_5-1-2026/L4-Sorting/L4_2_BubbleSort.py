@@ -4,10 +4,10 @@ print("Marks:", marks)
 
 # bubble sort
 for i in range(0, len(marks)-1):
-    for j in range(0, len(marks)-1-i):
-        if marks[j] > marks[j+1]:
-            temp = marks[j]
-            marks[j] = marks[j+1]
-            marks[j+1] = temp
-    
+    for j in range(___________):
+        if __________:
+            # Swap
+            _____________
+            ____________
+            ____________
 print("Marks:", marks)
