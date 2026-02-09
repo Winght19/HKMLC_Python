@@ -1,0 +1,3 @@
+Gender: Male
+Age: 22
+Nationality: British
